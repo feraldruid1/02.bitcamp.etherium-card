@@ -21,13 +21,17 @@ img {
   }
   h1 {
     color: #ffffff;
-    font-size: 22px;
     font-family: Arial ,Verdana ,Tahoma , sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
   }
   p {
     color: #8bacd9;
-    font-size: 18px;
     font-family: Arial ,Verdana ,Tahoma , sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
   }
   .info-wrapper {
     display: flex;
@@ -41,6 +45,9 @@ img {
     color: #00fff8;
     padding-left: 6.48px;
     font-family: Arial ,Verdana ,Tahoma , sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
   }
   .nft {
     display: flex;
@@ -54,6 +61,10 @@ img {
     color: #8bacd9;
     padding-left: 9.03px;
     font-family: Arial ,Verdana ,Tahoma , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
   }
   .line {
     width: 100%;
@@ -64,11 +75,20 @@ img {
     background: #2e405a;
   }
   .last {
+    font-family: Arial ,Verdana ,Tahoma , sans-serif;
     color: #8bacd9;
     padding-top: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
   }
   .last2 {
+    font-family: Arial ,Verdana ,Tahoma , sans-serif;
     padding-left: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     color: #ffffff;
   }
   .photo {
