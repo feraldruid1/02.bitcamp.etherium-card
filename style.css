@@ -22,10 +22,12 @@ img {
   h1 {
     color: #ffffff;
     font-size: 22px;
+    font-family: Arial ,Verdana ,Tahoma , sans-serif;
   }
   p {
     color: #8bacd9;
     font-size: 18px;
+    font-family: Arial ,Verdana ,Tahoma , sans-serif;
   }
   .info-wrapper {
     display: flex;
@@ -38,6 +40,7 @@ img {
   .nfttext {
     color: #00fff8;
     padding-left: 6.48px;
+    font-family: Arial ,Verdana ,Tahoma , sans-serif;
   }
   .nft {
     display: flex;
@@ -50,6 +53,7 @@ img {
   .clocktext {
     color: #8bacd9;
     padding-left: 9.03px;
+    font-family: Arial ,Verdana ,Tahoma , sans-serif;
   }
   .line {
     width: 100%;
