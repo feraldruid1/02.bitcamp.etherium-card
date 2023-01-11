@@ -105,3 +105,14 @@ img {
     display: flex;
     align-content: center;
   }
+  img:hover {
+    opacity: 0.5;
+  }
+  .imagediv {
+    border-radius: 8px;
+
+  }
+  .imagediv:hover {
+    
+    background-color:  #00FFF8;
+  }
