@@ -114,7 +114,6 @@ img {
     margin-top: 16px;
   }
   .imagediv {
-    border-radius: 8px;
     position: relative;
 
   }
@@ -125,9 +124,9 @@ img {
     align-items: center;
     content: url("./image/icon-view.svg");
     width: 350px;
-    height: 354px;
+    height: 350px;
     border-radius: 8px;
-    background-color: #00fffc,hsla(179, 100, 50, 0.5);
+    background-color: hsla(178, 100%, 50%, 0.349);
     top: 0px;
     transition: opacity 10s;
   }       
