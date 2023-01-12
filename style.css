@@ -115,15 +115,16 @@ img {
   }
   .imagediv {
     border-radius: 8px;
-    position: relative;
+ 
 
   }
+
   .imagediv::before,.imagediv:hover{
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    content: url("./image/icon-view.svg");
+    content: url("./image/icon-view.svg","image/image-equilibrium.jpg");
     width: 350px;
     height: 354px;
     border-radius: 8px;
