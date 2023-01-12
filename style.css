@@ -116,7 +116,7 @@ img {
   }
   .imagediv {
     position: relative;
-    width: 302px;
+    display: flex;
   }
   .imagediv:hover:after{
     position: absolute;
