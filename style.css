@@ -127,9 +127,9 @@ img {
     width: 350px;
     height: 354px;
     border-radius: 8px;
-    opacity: 0.7;
-    background-color:  #00FFF8;
+    background-color: #00fffc,hsla(179, 100, 50, 0.5);
     top: 0px;
+    transition: opacity 10s;
   }       
   h1:hover {
     color: #00FFF8;
