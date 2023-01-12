@@ -21,6 +21,7 @@ img {
     background-color: #15263f;
     border-radius: 15px;
     padding: 24px;
+    flex-shrink: 0;
   }
   h1 {
     color: #ffffff;
@@ -42,6 +43,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 24px;
   }
   .feral1 {
     color: #8bacd9;
@@ -56,13 +58,11 @@ img {
   }
   .nft {
     display: flex;
-    align-content: center;
-    margin-top: 24px;
+
   }
   .clock {
     display: flex;
-    align-content: center;
-    margin-top: 24px;
+
   }
   .clocktext {
     color: #8bacd9;
