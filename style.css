@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   }
 img {
     max-width: 100%;
@@ -115,7 +116,7 @@ img {
   }
   .imagediv {
     position: relative;
-
+    width: 302px;
   }
   .imagediv:hover:after{
     position: absolute;
@@ -123,8 +124,8 @@ img {
     justify-content: center;
     align-items: center;
     content: url("./image/icon-view.svg");
-    width: 350px;
-    height: 350px;
+    width: 302px;
+    height: 302px;
     border-radius: 8px;
     background-color: hsla(178, 100%, 50%, 0.349);
     top: 0px;
