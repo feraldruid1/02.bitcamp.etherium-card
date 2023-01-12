@@ -118,14 +118,19 @@ img {
   }
   .imagediv {
     border-radius: 8px;
+    position: relative;
   }
   .imagediv:hover {
-    
+    position: absolute;
+    content: url("./image/icon-view.svg");
     background-color:  #00FFF8;
-  }
+    right: 80px;
+  }       
   h1:hover {
     color: #00FFF8;
+    cursor: pointer;
   }
   .last2:hover {
     color: #00FFF8;
+    cursor: pointer;
   }
