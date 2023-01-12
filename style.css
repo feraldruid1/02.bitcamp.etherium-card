@@ -118,7 +118,7 @@ img {
     position: relative;
 
   }
-  .imagediv::before{
+  .imagediv::before:hover{
     position: absolute;
     display: flex;
     justify-content: center;
