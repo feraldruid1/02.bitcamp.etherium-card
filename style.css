@@ -115,21 +115,21 @@ img {
   }
   .imagediv {
     border-radius: 8px;
- 
+    position: relative;
 
   }
-
-  .imagediv::before,.imagediv:hover{
+  .imagediv:hover:after{
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    content: url("./image/icon-view.svg","image/image-equilibrium.jpg");
+    content: url("./image/icon-view.svg");
     width: 350px;
     height: 354px;
     border-radius: 8px;
     opacity: 0.7;
     background-color:  #00FFF8;
+    top: 0px;
   }       
   h1:hover {
     color: #00FFF8;
